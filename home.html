@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a  href="#"><img id="logoImg" src="./imgs/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+           
+              <a class="nav-link active" aria-disabled="true" href="#">About Us</a>
+            </div>
+            <div class="container-fluid" id="searchDiv">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            <div class="navbar-nav" id="userAccount">
+                <a class="nav-link" href="#" id="userLogin">Login</a>
+              <a class="nav-link" href="#" id="usersign">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </nav><br>
+      <div id="carouselExampleCaptions" class="carousel slide ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imgs/img6.jpg" class="d-block w-100 caursol-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome Back to QuickBite </h2>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/img4.jpg" class="d-block w-100 caursol-img" alt="...">
+            <div class="carousel-caption d-none d-md-block pb-5 pe-5">
+              <h2>Welcome Back to QuickBite </h2>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/pizza.jpeg" class="d-block w-100 caursol-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome Back to QuickBite </h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div style="display: flex;gap: 20px; align-items: center;justify-content: center;margin-top: 50px;">
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/img1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Burger sandwich</h5>
+          <p class="card-text">We have the most delicious Burger sandwich ever.</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/img2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Top Chef</h5>
+          <p class="card-text">Best Chefs with 2-5 years experiance in kitchen.</p>
+          <a href="#" class="btn btn-primary">Show menue</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/img3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Take Away</h5>
+          <p class="card-text">You can take the order to your home also.</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imgs/img5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">When order?</h5>
+          <p class="card-text">availale 24/7 for you,your family and friends.</p>
+          <a href="#" class="btn btn-primary">Show Menue</a>
+        </div>
+      </div>
+    </div><br><br>
+
+    <div style="display: flex;gap: 20px; align-items: center;justify-content: center;">
+        <div class="card" style="width: 18rem;">
+          <img src="./imgs/img11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Drinks</h5>
+            <p class="card-text">choose your favourite drink with your favourite meal .</p>
+            <a href="#" class="btn btn-primary">order Now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./imgs/img15.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Customer services</h5>
+            <p class="card-text">Our staff at restaurant available to serve you any time.</p>
+            <a href="#" class="btn btn-primary">See Menue</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./imgs/img18.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">French fries</h5>
+            <p class="card-text">the most delicious french fries ever also.</p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./imgs/pizza.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pizza</h5>
+            <p class="card-text"> You can order any type of pizza at any time.</p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div><br><br>
+        <div id="contentDiv">
+            <h3>QuickBite Restaurant</h3>
+            <pre>
+QuickBite is your go-to destination for
+    delicious, fast, and fresh meals. We take pride in serving
+    high-quality ingredients, mouthwatering flavors, and a diverse menu
+  that satisfies every craving. Whether you're in the mood for a juicy burger,
+  a crispy snack, or a refreshing drink, QuickBite has something for everyone. 
+  Our fast service and friendly atmosphere make us the perfect spot for a quick meal
+ on the go. Experience great taste, convenience, and unbeatable quality at QuickBite!
+            </pre>
+        </div><br>
+      <footer class="bg-dark text-light py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>About Us</h5>
+              <h3>QuickBite restaurant</h3>
+              <p>We provide the best services.</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-light">Home</a></li>
+                <li><a href="#" class="text-light">Services</a></li>
+                <li><a href="#" class="text-light">Contact</a></li>
+                <li><a href="#" class="text-light">Community</a></li>
+
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <p><i class="fa-brands fa-facebook"></i> <a href="#" class="text-light me-2">Facebook</a></p>
+              <p><i class="fa-brands fa-x-twitter"></i> <a href="#" class="text-light">Twitter</a></p>
+              <p><i class="fa-brands fa-instagram"></i> <a href="#" class="text-light">Instgram</a></p>
+              <p><i class="fa-brands fa-linkedin"></i> <a href="#" class="text-light">LinkedIn</a></p>
+            </div>
+          </div>
+          <p>Copy Right:&copy;QuickBiteRestaurant</p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+</html>
